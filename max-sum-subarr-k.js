@@ -18,6 +18,14 @@ const max_sub_array_of_size_k = function (arr, k) {
   return max;
 };
 
+/*
+Time Complexity#
+The time complexity of the above algorithm will be O(N)O(N).
+
+Space Complexity#
+The algorithm runs in constant space O(1)O(1). 
+*/
+
 const arr1 = [2, 1, 5, 1, 3, 2], k1 = 3; 
 console.log(max_sub_array_of_size_k(arr1, k1));
 // Output: 9
